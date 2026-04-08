@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Efe Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Efe Portfolio</h1>
+    <button id="temaBtn">🌙</button>
+</header>
+
+<section id="hakkimda">
+    <h2 id="typing"></h2>
+    <p>Ben Efe, web geliştirme öğreniyorum ve kendimi geliştiriyorum.</p>
+</section>
+
+<section id="yetenekler">
+    <h2>Yetenekler</h2>
+
+    <div class="skill">
+        <p>HTML</p>
+        <div class="bar"><div style="width:70%"></div></div>
+    </div>
+
+    <div class="yetenekler">
+        <p>CSS</p>
+        <div class="bar"><div style="width:80%"></div></div>
+    </div>
+
+    <div class="skill">
+        <p>JavaScript</p>
+        <div class="bar"><div style="width:70%"></div></div>
+    </div>
+</section>
+
+<section>
+    <h2>Projeler</h2>
+
+    <button onclick="filtrele('hepsi')">Hepsi</button>
+    <button onclick="filtrele('web')">Web</button>
+    <button onclick="filtrele('mobil')">Mobil</button>
+
+    <div id="projeListesi"></div>
+</section>
+
+<section>
+    <h2>İletişim</h2>
+    <p>Email: ustayazilimci@gmail.com</p>
+    <p>Telefon: +90 0520 029 34 60 </p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
